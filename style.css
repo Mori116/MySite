@@ -37,7 +37,7 @@ nav {
   height: 70px;
 }
 
-a {
+.nav-title {
   text-decoration: none;
   color: #fafafa;
   font-size: 16px;
@@ -122,7 +122,7 @@ a {
   text-align: center;
 }
 
-.fa {
+.fa-code,.fa-desktop,.fa-cogs {
   font-size: 60px;
 }
 
@@ -180,4 +180,51 @@ span:nth-child(2) {
 .profile-text {
   font-size: 16px;
   color: #000000;
+}
+
+.contact {
+  margin-bottom: 90px;
+}
+
+.left-field {
+  width: 50%;
+}
+
+.left {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-field {
+  text-align: center;
+  width: 50%;
+}
+
+.fa-facebook,.fa-instagram {
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mail {
+  margin-top: 5px;
+  color: #000000;
+}
+
+.tel {
+  margin-top: 5px;
+  color: #000000;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.tel-title {
+  margin-top: 20px;
 }
