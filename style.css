@@ -68,12 +68,12 @@ a {
   background-color: #eceff1;
 }
 
-.portfolio-text {
+.text {
   width: 920px;
   margin: 0 auto;
 }
 
-.portfolio-text > p {
+.text > p {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 16px;
@@ -97,6 +97,10 @@ a {
   margin-right: 0;
 }
 
+.portfolio-image:nth-child(n + 4):nth-child(-n + 6) {
+  margin-bottom: 90px;
+}
+
 .heading {
   padding-top: 90px;
   text-align: center;
@@ -108,6 +112,35 @@ a {
   content: "";
   width: 70px;
   height: 3px;
-  margin: 8px auto 0 auto;
+  margin: 8px auto 30px auto;
   background-color: #ec715f;
+}
+
+.strength {
+  display: flex;
+  text-align: center;
+}
+
+.fa {
+  font-size: 60px;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span {
+  width: 320px;
+  height: auto;
+  margin-bottom: 90px;
+}
+
+span:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.strength-text {
+  text-align: left;
 }
